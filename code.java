@@ -18,6 +18,7 @@ class Employee {
      class Developer extends Employee{
         int developer_id;
         String[] pr_language;
+        //added comment
 
         public Developer(int em_age, String em_name, String em_designation, String em_department, double em_salary, int developer_id, String[] pr_language) {
             super(em_age, em_name, em_designation, em_department, em_salary);
